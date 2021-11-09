@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    font-size: 20px;
+    color: red;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-size: 15px;
+    color: red;
+    padding-left: 20px;
+}
+.form{
+    width: 100%;
+    font-size: 18px;
+    background-color: aqua;
+}
+
+#contact-form{
+    width: 100%;
+    font-size: 18px;
+    background-color: gray;
+}
+.footer{
+    font-size: 30px;
+    text-align: center;
+    color: greenyellow;
+}
+ p{
+     color: green;
+ }
