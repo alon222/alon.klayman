@@ -9,6 +9,11 @@
     text-align: center;
     background-color: aqua;
 }
+.header h1{
+    animation-name: title;
+    animation-duration: 2s;
+    animation-iteration-count: 5;
+}
 .content-left{
     grid-area: content-left;
     width: 100%;
@@ -56,3 +61,8 @@ ul{
     }
 
 }
+@keyframes title {
+    0% {color: #82AACB;}
+    50% {color: #2C3E50;}
+    100% {color: #82AACB;}
+ }

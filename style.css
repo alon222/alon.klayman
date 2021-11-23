@@ -2,10 +2,20 @@
     padding: 0;
     margin: 0;
 }
+@keyframes title {
+    from {color: #82AACB;}
+    to {color: #2C3E50;}
+ }
+    div {
+        animation-name: title;
+        animation-delay: 2s;
+        animation-duration: 4s;
+    }
 h1 {
     font-size: 20px;
     color: red;
     text-align: center;
+
 }
 h2{
     text-align: center;
@@ -32,3 +42,4 @@ h2{
  p{
      color: green;
  }
+
