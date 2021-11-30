@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cv.css">
+    <script src="CV.js"></script>
+
+</head>
+<body>
+        <h2>טופס יצירת קשר</h2>
+        <form action="">
+            <div class="group">
+                <label for="id1" name="id1">שם פרטי: </label><br>
+                <input id="id1" type="text" required>
+            </div>
+            <div class="group">
+                <label for="id2" name="id2">מספר טלפון: </label><br>
+                <input id="id2" type="tel" maxlength="10" minlength="10" required><br>
+            </div>
+            <button onclick="myFunction()">OK</button>
+            <p id="demo"></p>
+        </form>
+        <p id="typing"></p>
+        <button onclick="typeWriter()">animation</button>
+</body>
+</html>

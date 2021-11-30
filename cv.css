@@ -1,3 +1,42 @@
+/* input,label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+form{
+    direction: rtl;
+}
+.group{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form button{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 40px;
+    padding: 5px 80px;
+    background: lightblue;
+}
+#demo{
+    display: flex;
+    justify-content: center;
+}
+button{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 80px;
+    padding: 5px 80px;
+    background: lightblue;
+}
+
+
 *{
     margin: 0px;
     padding: 0px;
